@@ -222,6 +222,9 @@ input[type=range]::-moz-range-thumb{
   font-family:"IBM Plex Mono",monospace;font-size:.8125em;
   background:var(--surface-2);padding:2px 6px;border-radius:5px;color:var(--ink)
 }
+.notes a{color:var(--accent-ink);text-decoration:underline;text-underline-offset:2px;word-break:break-word}
+.ref{margin-top:6px}
+.ref p{font-size:var(--step--1);color:var(--ink-3);line-height:1.6}
 .foot{margin-top:28px;font-size:.75rem;color:var(--ink-3)}
 
 @media (max-width:880px){
@@ -414,6 +417,15 @@ input[type=range]::-moz-range-thumb{
       da sua WABA. As faixas de desconto por volume de utilidade e autenticação não entram no cálculo, então
       operações de alto volume tendem a pagar um pouco menos que o simulado.
     </p>
+    <div class="ref">
+      <h2>Fonte</h2>
+      <p>
+        Tarifas, franquia de mensagens de serviço, datas de vigência e regras de cobrança são baseadas na
+        documentação oficial da Meta &mdash; <em>WhatsApp Business Platform Pricing</em>, seção
+        <em>Updates to rate cards</em>:
+        <a href="https://developers.facebook.com/documentation/business-messaging/whatsapp/pricing#updates-to-rate-cards" target="_blank" rel="noopener noreferrer">developers.facebook.com/documentation/business-messaging/whatsapp/pricing#updates-to-rate-cards</a>.
+      </p>
+    </div>
     <p class="foot">FastZap · Simulador de custo WhatsApp</p>
   </section>
 
